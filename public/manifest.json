@@ -1,0 +1,18 @@
+{
+	"manifest_version": 3,
+	"name": "掘金小册搜索",
+	"version": "0.1.0",
+	"description": "掘金小册搜索",
+	"author": "kay",
+	"icons": {
+		"16": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://juejin.cn/*/section/*"],
+			"js": ["index.js"]
+		}
+	]
+}
